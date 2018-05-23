@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+target 'CLDemo' do
+pod 'AFNetworking', '~> 3.0' #网络请求
+pod 'MJExtension' #json转model
+pod 'MJRefresh' #刷新控件
+pod 'Masonry' #布局
+pod 'SDWebImage', '~> 4.0'
+pod 'YYCache' #缓存
+pod 'NSObject-NSCoding' #数据持久化编码
+pod 'YYText' #富文本 
+pod 'UITableView+FDTemplateLayoutCell' #cell自动布局
+pod 'FSCalendar' #日历组件
+pod "RATreeView", "~> 2.1.2" #树状视图
+pod 'MBProgressHUD', '~> 1.1.0'
+end
